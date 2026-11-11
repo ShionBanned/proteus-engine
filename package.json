@@ -1,0 +1,33 @@
+{
+  "name": "proteus-engine",
+  "version": "1.0.0",
+  "description": "Zero-entropy skill distillation, context firewall, and ephemeral subagent protocol for AI agents.",
+  "main": "src/index.ts",
+  "bin": {
+    "proteus": "./bin/proteus.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "bun run bin/proteus.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "audit": "bun run hooks/proteus-post-edit-slop.ts"
+  },
+  "keywords": [
+    "ai-agents",
+    "subagents",
+    "antigravity",
+    "context-engineering",
+    "clean-room",
+    "mcp",
+    "skills",
+    "kv-cache",
+    "distillation"
+  ],
+  "author": "Shion & Antigravity",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  }
+}

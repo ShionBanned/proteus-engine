@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-11-10T23:42:00.000Z",
+  "skills": [
+    {
+      "id": "skill.discord.v1",
+      "triggers": ["discord", "discord-bot", "chat-gateway"],
+      "description": "Discord gateway messaging and channel inspector via lazy CLI",
+      "refPath": "references/discord-agent.md",
+      "cliPath": "bin/proteus-tool-discord.ts",
+      "maxRisk": "N1",
+      "lineCount": 26
+    }
+  ]
+}
